@@ -26,6 +26,7 @@ description: "Standard End-to-End Analytical Workflow. From Request to Final Ins
 1. **Interpretation**: Interpret the results in business terms.
 2. **"So What?"**: What should the business DO with this information?
 3. **Review**: Check against "Rich Aesthetics" and business alignment.
+4. **Korean Output**: Translate the final report into **KOREAN (한국어)** before delivery. (See `skills/reporting.md` for the Critical Language Rule.)
 
 ## References
 - **Methodology**: See `skills/methodology.md`.
