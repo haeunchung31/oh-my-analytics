@@ -1,5 +1,8 @@
 # Reporting Skills
 
+> [!CAUTION]
+> **Critical Language Rule**: All reasoning, prompting, and intermediate artifacts (`.md` files) are in **English**. The **FINAL REPORT** delivered to stakeholders must be in **KOREAN (한국어)**.
+
 **Goal**: Communicate insights clearly to stakeholders.
 
 ## Report Structure
