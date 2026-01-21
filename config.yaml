@@ -1,0 +1,3 @@
+# Project Configuration
+# Set the active project name (must match a directory under src/)
+project: pj-init

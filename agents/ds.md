@@ -19,5 +19,6 @@
 ## Output Format
 - **Methodology**: Choice of algorithm/test and justification.
 - **Code**: Python code (pandas, scikit-learn, statsmodels).
+  - Scripts must be **reproducible and verifiable**: include clear data loading, transformation steps, and save outputs to `output/` so results can be re-executed and validated.
 - **Explainability**: Use `SHAP` or `InterpretML` to explain model drivers (Global & Local importance).
 - **Interpretation**: What do the numbers say about the hypothesis? (Reject/Fail to Reject).

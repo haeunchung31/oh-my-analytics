@@ -5,10 +5,11 @@ Standard structure for all analytics projects:
 
 ```
 src/[project-id]/
-├── input/              # CSV data files (Read-Only)
-├── output/             # Visualizations and result CSVs
-├── tasks/              # Parallel task scripts
-└── report/             # Markdown reports (only when requested)
+├── sql/                # SQL query files
+├── input/              # CSV or Parquet data files (Read-Only)
+├── output/             # Result files (PNG, CSV, HTML)
+├── report/             # Task reports
+└── *.py                # Reproducible Python scripts at root
 ```
 
 ## File Naming
