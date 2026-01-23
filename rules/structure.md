@@ -9,6 +9,7 @@ src/[project-id]/
 ├── input/              # CSV or Parquet data files (Read-Only)
 ├── output/             # Result files (PNG, CSV, HTML)
 ├── report/             # Task reports
+├── intermediate/       # Brainstorm and Design docs
 └── *.py                # Reproducible Python scripts at root
 ```
 

@@ -1,21 +1,33 @@
-# /report - Final Report Generation
+# /report - Interactive Reporting & Synthesis
 
-**Usage**: `/report`
-**Description**: Synthesizes findings into a business-ready document.
+**Usage**: `/report src/[project_name]/intermediate/analysis_results.md`
+**Description**: Synthesize findings into a final Korean report.
 
-## Workflow steps
-1. **Aggregate Findings**:
-   - Review all analysis outputs, charts, and notes from this session.
+## Purpose
+Convert technical findings into a business narrative, saved in the project's report directory.
 
-2. **Invoke Review Agent**:
-   - Check against `agents/review_agent.md`.
-   - Ask: "Does this answer the *original* business question?"
+## Workflow Steps
 
-3. **Draft Report**:
-   - Follow individual section guidelines in `skills/reporting.md`.
-   - **Executive Summary**: Must be top-loaded.
-   - **Visuals**: Embed best charts.
+### 1. **Synthesis (Orchestrator)**
+- Load analysis results from `src/[project_name]/intermediate/`.
+- Synthesize findings relative to `src/[project_name]/intermediate/brainstorm.md`.
 
-4. **Final Polish**:
-   - Ensure no PII is included (`rules/data_privacy.md`).
-   - Check tone (Professional, Financial).
+### 2. **Interactive Review Loop**
+- Focus on "So What?" and business implications.
+- Ensure **Korean** language output.
+
+### 3. **Draft Final Report**
+- Save final report to `src/[project_name]/report/Final_Report.md` (or `.pdf`/`.pptx` if supported).
+
+## Output Format
+
+```markdown
+# [Title in Korean]
+
+## Executive Summary
+...
+```
+
+## References
+- **Input**: `src/[project_name]/intermediate/analysis_results.md`
+- **Output**: `src/[project_name]/report/`
